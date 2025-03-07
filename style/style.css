@@ -1,0 +1,39 @@
+section{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main{
+    background-color: lightyellow;
+    border: 1px solid black;
+    height: 100vh;
+
+}
+section>aside{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background-color: hotpink;
+    height: 100vh;
+}
+
+.gallery_container {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    gap: 2px;
+}
+
+.gallery_container > .gallery {
+    border: 1px solid purple;
+    width: 10px;
+    aspect-ratio: 1/1;
+    background-color: orange;
+}
+
