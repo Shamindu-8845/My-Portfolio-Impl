@@ -37,3 +37,8 @@ section>aside{
     background-color: orange;
 }
 
+.aside_main{
+    width: 80vw;
+    height: 80vh;
+    background-color: blue;
+}
